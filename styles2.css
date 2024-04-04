@@ -1,0 +1,134 @@
+/* 
+body{
+    overflow: hidden;
+} */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width:100vw;
+    height:100vh;
+    background-color: rgb(95, 103, 121);
+    padding:20px;
+    box-sizing:border-box;
+    display:flex;
+    /* margin-right: 55px; */
+}
+.heading{
+    color: black;
+}
+.abc{
+    display: flex;
+}
+
+.arrow{
+    display: inline-block;
+    color: whitesmoke;
+}
+
+::placeholder{
+    color: white   ;
+    text-align: center;
+}
+
+
+
+.node {
+    width: 50px;
+    height: 50px;
+    color:whitesmoke;
+    background-color: rgb(95, 103, 121);
+    /* border: 2px solid rgb(254, 165, 0); */
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.container {
+    flex:1;
+    /* box-sizing: border-box; */
+    text-align: center;
+    /* position: relative; */
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    width: 100vw;
+}
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #fff;
+    background-color: #4a4848;
+    border-radius: 2px;
+    color: white;
+}
+.heading{
+    color: #000;
+    border: 2px solid #fff;
+    background-color: palevioletred;
+    margin-top: -20px;
+    
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: absolute; 
+    top: 45px; 
+    left: 10%; 
+    transform: translateX(-50%); 
+    flex-direction: column;
+    height: 90vh;
+    justify-content: space-evenly;
+
+}
+button {
+    padding: 8px 20px;
+    font-size: 16px;
+    line-height: 16px; 
+    cursor: pointer;
+    background-color: #4a4848;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin: 0 5px;
+    width: 210px; 
+}
+.linked-list {
+    background-color: #4a4848;
+    justify-content: center;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    margin-left: 20%;
+    flex:1;
+    border: 2px solid #333; 
+    padding: 10px; 
+    justify-content: space-around;
+    color:#fff;
+    height: 100vh;
+    border:1px solid white;
+    border-radius: 4px;
+    
+}
+
+.linked-list {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.linked-list::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.heading{
+    display: block;
+}
+input:hover, button:hover {
+    background-color: #424542;
+}
